@@ -1,6 +1,6 @@
-// Если необходимо, исправьте данный код (задание 2 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit) 
+// Р•СЃР»Рё РЅРµРѕР±С…РѕРґРёРјРѕ, РёСЃРїСЂР°РІСЊС‚Рµ РґР°РЅРЅС‹Р№ РєРѕРґ (Р·Р°РґР°РЅРёРµ 2 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit) 
 
-// Задание 2
+// Р—Р°РґР°РЅРёРµ 2
 // try {
 //    int d = 0;
 //    double catchedRes1 = intArray[8] / d;
@@ -8,6 +8,7 @@
 // } catch (ArithmeticException e) {
 //    System.out.println("Catching exception: " + e);
 // }
+
 
  
 

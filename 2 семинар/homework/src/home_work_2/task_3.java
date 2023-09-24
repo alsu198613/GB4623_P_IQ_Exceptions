@@ -1,5 +1,5 @@
-// Дан следующий код, исправьте его там, где требуется (задание 3 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit) 
-// Задание 3
+// Р”Р°РЅ СЃР»РµРґСѓСЋС‰РёР№ РєРѕРґ, РёСЃРїСЂР°РІСЊС‚Рµ РµРіРѕ С‚Р°Рј, РіРґРµ С‚СЂРµР±СѓРµС‚СЃСЏ (Р·Р°РґР°РЅРёРµ 3 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit) 
+// Р—Р°РґР°РЅРёРµ 3
 
 // public static void main(String[] args) throws Exception {
 //    try {
@@ -10,16 +10,17 @@
 //        int[] abc = { 1, 2 };
 //        abc[3] = 9;
 //    } catch (Throwable ex) {
-//        System.out.println("Что-то пошло не так...");
+//        System.out.println("Р§С‚Рѕ-С‚Рѕ РїРѕС€Р»Рѕ РЅРµ С‚Р°Рє...");
 //    } catch (NullPointerException ex) {
-//        System.out.println("Указатель не может указывать на null!");
+//        System.out.println("РЈРєР°Р·Р°С‚РµР»СЊ РЅРµ РјРѕР¶РµС‚ СѓРєР°Р·С‹РІР°С‚СЊ РЅР° null!");
 //    } catch (IndexOutOfBoundsException ex) {
-//        System.out.println("Массив выходит за пределы своего размера!");
+//        System.out.println("РњР°СЃСЃРёРІ РІС‹С…РѕРґРёС‚ Р·Р° РїСЂРµРґРµР»С‹ СЃРІРѕРµРіРѕ СЂР°Р·РјРµСЂР°!");
 //    }
 // }
 // public static void printSum(Integer a, Integer b) throws FileNotFoundException {
 //    System.out.println(a + b);
 // }
+
 
 
 package home_work_2;
@@ -35,11 +36,11 @@ public class task_3 {
             int[] abc = { 1, 2 };
             abc[3] = 9;
         } catch (NullPointerException ex) {
-            System.out.println("Указатель не может указывать на null!");
+            System.out.println("РЈРєР°Р·Р°С‚РµР»СЊ РЅРµ РјРѕР¶РµС‚ СѓРєР°Р·С‹РІР°С‚СЊ РЅР° null!");
         } catch (IndexOutOfBoundsException ex) {
-            System.out.println("Массив выходит за пределы своего размера!");
+            System.out.println("РњР°СЃСЃРёРІ РІС‹С…РѕРґРёС‚ Р·Р° РїСЂРµРґРµР»С‹ СЃРІРѕРµРіРѕ СЂР°Р·РјРµСЂР°!");
         } catch (Throwable ex) {
-            System.out.println("Что-то пошло не так...");
+            System.out.println("Р§С‚Рѕ-С‚Рѕ РїРѕС€Р»Рѕ РЅРµ С‚Р°Рє...");
         }
 
     }
